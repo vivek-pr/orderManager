@@ -1,0 +1,3 @@
+# created by virtualenv automatically
+*/**/migrations/0*.pyc
+*/**/migrations/__init__.pyc
