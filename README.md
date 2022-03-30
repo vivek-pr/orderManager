@@ -3,7 +3,7 @@
 ## SETUP
 ```angular2html
 1) Create a virtualenv with python 3.10
-2) Activate virtualenv
+2) Activate virtualenv created in earlier step.
 3) Run sh setup.sh
 
 TO Run Test
@@ -13,7 +13,7 @@ To Run Server
 python manage.py runserver
 
 ```
-## What includes code
+## What API includes code
 ```angular2html
 1) User 
     a) Get Token of user
