@@ -9,7 +9,7 @@ class Product(models.Model):
     quantity = models.IntegerField(default=0)
 
     def decrease_quantity(self, order_quantity):
-        if self.quantity > order_quantity:
+        if self.quantity >= order_quantity:
             self.quantity -= order_quantity
             self.save()
         else:
